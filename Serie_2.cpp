@@ -88,7 +88,7 @@ int main(){
 
 
 	// Exercice 2.6
-	string codeSecret = "test";
+	/*string codeSecret = "test";
 	string code;
 
 	cout << "Trouver le code secret\n";
@@ -100,8 +100,7 @@ int main(){
 		cout << "Le code est bon\n";
 	} else {
 		cout << "Mauvais code\n";
-	}
+	}*/
 
 	return 0;
-
 }
