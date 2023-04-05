@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -72,7 +73,7 @@ int main(){
 
 
 	// Exercice 2.5
-	int nombre;
+	/*int nombre;
 
 	cout << "Nombre pair ou impair ?\n";
 
@@ -83,6 +84,22 @@ int main(){
 		cout << "Le nombre est pair\n";
 	} else{
 		cout << "Le nombre est impair\n";
+	}*/
+
+
+	// Exercice 2.6
+	string codeSecret = "test";
+	string code;
+
+	cout << "Trouver le code secret\n";
+
+	cout << "Entrez le code : ";
+	cin >> code;
+
+	if(code == codeSecret){
+		cout << "Le code est bon\n";
+	} else {
+		cout << "Mauvais code\n";
 	}
 
 	return 0;
