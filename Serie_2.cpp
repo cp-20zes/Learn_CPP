@@ -57,7 +57,7 @@ int main(){
 
 
 	// Exercice 2.4
-	int annee;
+	/*int annee;
 
 	cout << "Test des années bissextiles\n";
 
@@ -68,6 +68,21 @@ int main(){
 		cout << "L'année " << annee << " est bissextile\n";
 	} else {
 		cout << "L'année " << annee << " n'est pas bissextile\n";
+	}*/
+
+
+	// Exercice 2.5
+	int nombre;
+
+	cout << "Nombre pair ou impair ?\n";
+
+	cout << "Entrez un nombre : ";
+	cin >> nombre;
+
+	if(nombre % 2 == 0){
+		cout << "Le nombre est pair\n";
+	} else{
+		cout << "Le nombre est impair\n";
 	}
 
 	return 0;
