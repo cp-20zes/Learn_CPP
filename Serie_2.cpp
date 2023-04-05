@@ -23,7 +23,7 @@ int main(){
 	}*/
 
 	// Exerice 2.2
-	int mois;
+	/*int mois;
 
 	cout << "Test de la validité d'un mois\n";
 
@@ -34,6 +34,23 @@ int main(){
 		cout << "Le mois est incorrect";
 	} else{
 		cout << "Le mois est correcte";
+	}*/
+
+	// Exercice 2.3
+	double temp;
+	cout << "Les états de l'eau\n";
+
+	cout << "Quelle est la température de l'eau ? : ";
+	cin >> temp;
+
+	if(temp <= 0){
+		cout << "L'eau est à l'état solide\n";
+	}
+	else if(temp > 0 && temp < 100){
+		cout << "L'eau est à l'état liqude\n";
+	}
+	else{
+		cout << "L'eau est à l'état gazeux\n";	
 	}
 
 	return 0;
