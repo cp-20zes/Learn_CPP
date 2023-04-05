@@ -22,6 +22,7 @@ int main(){
 		cout << "Le resultat est " << dividende / diviseur << endl;
 	}*/
 
+
 	// Exerice 2.2
 	/*int mois;
 
@@ -36,8 +37,9 @@ int main(){
 		cout << "Le mois est correcte";
 	}*/
 
+
 	// Exercice 2.3
-	double temp;
+	/*double temp;
 	cout << "Les états de l'eau\n";
 
 	cout << "Quelle est la température de l'eau ? : ";
@@ -51,6 +53,21 @@ int main(){
 	}
 	else{
 		cout << "L'eau est à l'état gazeux\n";	
+	}*/
+
+
+	// Exercice 2.4
+	int annee;
+
+	cout << "Test des années bissextiles\n";
+
+	cout << "Quelle est l'année que vous voulez tester ? : ";
+	cin >> annee;
+
+	if(annee % 4 == 0 && !(annee % 100 == 0) || annee % 400 == 0){
+		cout << "L'année " << annee << " est bissextile\n";
+	} else {
+		cout << "L'année " << annee << " n'est pas bissextile\n";
 	}
 
 	return 0;
